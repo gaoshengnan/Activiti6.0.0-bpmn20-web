@@ -18,6 +18,7 @@ git clone clone https://github.com/gaoshengnan/Activiti6.0.0-bpmn20-web.git
   Password：admin
 
 ![terminal](picture/startTomcat.jpg)
+![terminal](picture/loginAdmin.jpg)
 
 > 这里默认的Server port是9999，修改端口号为8080，并设置app的密码为test，然后
 > 点击【Check Activiti Rest endpoint】测试一下
