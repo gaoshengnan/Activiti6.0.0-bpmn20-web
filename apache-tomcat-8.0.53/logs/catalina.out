@@ -5104,3 +5104,354 @@ INFO 18-12-24 下午8:11:liquibase: Successfully released change log lock
 24-Dec-2018 20:11:14.276 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 24-Dec-2018 20:11:14.284 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 24-Dec-2018 20:11:14.286 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 29883 ms
+24-Dec-2018 21:55:34.701 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+24-Dec-2018 21:55:34.705 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+24-Dec-2018 21:55:34.705 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+24-Dec-2018 21:55:34.706 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Dec-2018 21:55:34.706 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.3
+24-Dec-2018 21:55:34.706 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+24-Dec-2018 21:55:34.706 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre
+24-Dec-2018 21:55:34.706 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+24-Dec-2018 21:55:34.706 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Dec-2018 21:55:34.706 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53
+24-Dec-2018 21:55:34.706 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53
+24-Dec-2018 21:55:34.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/conf/logging.properties
+24-Dec-2018 21:55:34.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Dec-2018 21:55:34.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Dec-2018 21:55:34.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Dec-2018 21:55:34.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Dec-2018 21:55:34.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53
+24-Dec-2018 21:55:34.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53
+24-Dec-2018 21:55:34.708 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/temp
+24-Dec-2018 21:55:34.708 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/sunny/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+24-Dec-2018 21:55:34.860 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Dec-2018 21:55:34.882 严重 [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["http-nio-8080"]
+ java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:350)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:823)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:476)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:120)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:568)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:871)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:592)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:615)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:308)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:482)
+
+24-Dec-2018 21:55:34.883 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:568)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:871)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:592)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:615)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:308)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:482)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:962)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:350)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:823)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:476)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:120)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	... 13 more
+
+24-Dec-2018 21:55:34.885 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 21:55:34.886 严重 [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["ajp-nio-8009"]
+ java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:350)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:823)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:476)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:568)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:871)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:592)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:615)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:308)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:482)
+
+24-Dec-2018 21:55:34.887 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:568)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:871)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:592)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:615)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:308)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:482)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:962)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:350)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:823)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:476)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	... 13 more
+
+24-Dec-2018 21:55:34.887 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 564 ms
+24-Dec-2018 21:55:34.909 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+24-Dec-2018 21:55:34.910 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+24-Dec-2018 21:55:34.936 警告 [localhost-startStop-1] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+24-Dec-2018 21:55:34.938 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/activiti-app.war
+24-Dec-2018 21:55:34.951 警告 [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'debug' to '100' did not find a matching property.
+24-Dec-2018 21:55:35.600 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:55:37,707 [localhost-startStop-1] INFO  org.activiti.app.conf.AsyncConfiguration  - Creating Async Task Executor
+09:55:38,554 [localhost-startStop-1] INFO  org.activiti.app.conf.DatabaseConfiguration  - Configuring Datasource
+09:55:38,569 [localhost-startStop-1] INFO  org.activiti.app.conf.DatabaseConfiguration  - Configuring Datasource with following properties (omitted password for security)
+09:55:38,569 [localhost-startStop-1] INFO  org.activiti.app.conf.DatabaseConfiguration  - datasource driver: org.h2.Driver
+09:55:38,569 [localhost-startStop-1] INFO  org.activiti.app.conf.DatabaseConfiguration  - datasource url : jdbc:h2:mem:activiti;DB_CLOSE_DELAY=-1
+09:55:38,569 [localhost-startStop-1] INFO  org.activiti.app.conf.DatabaseConfiguration  - datasource user name : sa
+09:55:38,569 [localhost-startStop-1] INFO  org.activiti.app.conf.DatabaseConfiguration  - Min pool size | Max pool size | acquire increment : 10 | 100 | 5
+09:55:38,605 [localhost-startStop-1] INFO  com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+09:55:39,687 [localhost-startStop-1] INFO  com.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+09:55:39,880 [localhost-startStop-1] INFO  org.activiti.app.conf.DatabaseConfiguration  - Configuring EntityManager
+09:55:40,976 [localhost-startStop-1] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1yd9vvp9z1qagqvr1wji9xt|48960f5, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.h2.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1yd9vvp9z1qagqvr1wji9xt|48960f5, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:h2:mem:activiti;DB_CLOSE_DELAY=-1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 1800, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+09:55:43,624 [localhost-startStop-1] INFO  org.activiti.engine.impl.cfg.ProcessEngineConfigurationImpl  - Found 2 Process Engine Configurators in total:
+09:55:43,624 [localhost-startStop-1] INFO  org.activiti.engine.impl.cfg.ProcessEngineConfigurationImpl  - class org.activiti.form.engine.configurator.FormEngineConfigurator (priority:10000)
+09:55:43,625 [localhost-startStop-1] INFO  org.activiti.engine.impl.cfg.ProcessEngineConfigurationImpl  - class org.activiti.dmn.engine.configurator.DmnEngineConfigurator (priority:10000)
+09:55:43,625 [localhost-startStop-1] INFO  org.activiti.engine.impl.cfg.ProcessEngineConfigurationImpl  - Executing beforeInit() of class org.activiti.form.engine.configurator.FormEngineConfigurator (priority:10000)
+INFO 18-12-24 下午9:55:liquibase: Successfully acquired change log lock
+INFO 18-12-24 下午9:55:liquibase: Creating database history table with name: PUBLIC.ACT_FO_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Reading from PUBLIC.ACT_FO_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Reading from PUBLIC.ACT_FO_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Reading from PUBLIC.ACT_FO_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: org/activiti/form/db/liquibase/activiti-form-db-changelog.xml: 1::activiti: Reading from PUBLIC.ACT_FO_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: org/activiti/form/db/liquibase/activiti-form-db-changelog.xml: 1::activiti: Table ACT_FO_FORM_DEPLOYMENT created
+INFO 18-12-24 下午9:55:liquibase: org/activiti/form/db/liquibase/activiti-form-db-changelog.xml: 1::activiti: Table ACT_FO_FORM_RESOURCE created
+INFO 18-12-24 下午9:55:liquibase: org/activiti/form/db/liquibase/activiti-form-db-changelog.xml: 1::activiti: Table ACT_FO_FORM_DEFINITION created
+INFO 18-12-24 下午9:55:liquibase: org/activiti/form/db/liquibase/activiti-form-db-changelog.xml: 1::activiti: Table ACT_FO_SUBMITTED_FORM created
+INFO 18-12-24 下午9:55:liquibase: org/activiti/form/db/liquibase/activiti-form-db-changelog.xml: 1::activiti: ChangeSet org/activiti/form/db/liquibase/activiti-form-db-changelog.xml::1::activiti ran successfully in 7ms
+INFO 18-12-24 下午9:55:liquibase: org/activiti/form/db/liquibase/activiti-form-db-changelog.xml: 1::activiti: Reading from PUBLIC.ACT_FO_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Successfully released change log lock
+09:55:45,772 [localhost-startStop-1] INFO  org.activiti.form.engine.impl.FormEngineImpl  - FormEngine default created
+09:55:45,775 [localhost-startStop-1] INFO  org.activiti.engine.impl.cfg.ProcessEngineConfigurationImpl  - Executing beforeInit() of class org.activiti.dmn.engine.configurator.DmnEngineConfigurator (priority:10000)
+INFO 18-12-24 下午9:55:liquibase: Successfully acquired change log lock
+INFO 18-12-24 下午9:55:liquibase: Creating database history table with name: PUBLIC.ACT_DMN_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Reading from PUBLIC.ACT_DMN_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Reading from PUBLIC.ACT_DMN_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Reading from PUBLIC.ACT_DMN_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: org/activiti/dmn/db/liquibase/activiti-dmn-db-changelog.xml: 1::activiti: Reading from PUBLIC.ACT_DMN_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: org/activiti/dmn/db/liquibase/activiti-dmn-db-changelog.xml: 1::activiti: Table ACT_DMN_DEPLOYMENT created
+INFO 18-12-24 下午9:55:liquibase: org/activiti/dmn/db/liquibase/activiti-dmn-db-changelog.xml: 1::activiti: Table ACT_DMN_DEPLOYMENT_RESOURCE created
+INFO 18-12-24 下午9:55:liquibase: org/activiti/dmn/db/liquibase/activiti-dmn-db-changelog.xml: 1::activiti: Table ACT_DMN_DECISION_TABLE created
+INFO 18-12-24 下午9:55:liquibase: org/activiti/dmn/db/liquibase/activiti-dmn-db-changelog.xml: 1::activiti: ChangeSet org/activiti/dmn/db/liquibase/activiti-dmn-db-changelog.xml::1::activiti ran successfully in 2ms
+INFO 18-12-24 下午9:55:liquibase: org/activiti/dmn/db/liquibase/activiti-dmn-db-changelog.xml: 1::activiti: Reading from PUBLIC.ACT_DMN_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Successfully released change log lock
+09:55:46,044 [localhost-startStop-1] INFO  org.activiti.dmn.engine.impl.DmnEngineImpl  - DmnEngine default created
+09:55:47,167 [localhost-startStop-1] INFO  org.activiti.engine.compatibility.DefaultActiviti5CompatibilityHandlerFactory  - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+09:55:47,167 [localhost-startStop-1] INFO  org.activiti.engine.impl.cfg.ProcessEngineConfigurationImpl  - Executing configure() of class org.activiti.form.engine.configurator.FormEngineConfigurator (priority:10000)
+09:55:47,167 [localhost-startStop-1] INFO  org.activiti.engine.impl.cfg.ProcessEngineConfigurationImpl  - Executing configure() of class org.activiti.dmn.engine.configurator.DmnEngineConfigurator (priority:10000)
+09:55:47,198 [localhost-startStop-1] INFO  org.activiti.engine.impl.db.DbSqlSession  - performing create on engine with resource org/activiti/db/create/activiti.h2.create.engine.sql
+09:55:47,263 [localhost-startStop-1] INFO  org.activiti.engine.impl.db.DbSqlSession  - performing create on history with resource org/activiti/db/create/activiti.h2.create.history.sql
+09:55:47,279 [localhost-startStop-1] INFO  org.activiti.engine.impl.db.DbSqlSession  - performing create on identity with resource org/activiti/db/create/activiti.h2.create.identity.sql
+09:55:47,305 [localhost-startStop-1] INFO  org.activiti.engine.impl.ProcessEngineImpl  - ProcessEngine default created
+09:55:47,311 [localhost-startStop-1] INFO  org.activiti.engine.impl.asyncexecutor.DefaultAsyncJobExecutor  - Starting up the default async job executor [org.activiti.engine.impl.asyncexecutor.DefaultAsyncJobExecutor].
+09:55:47,312 [localhost-startStop-1] INFO  org.activiti.engine.impl.asyncexecutor.DefaultAsyncJobExecutor  - Creating thread pool queue of size 100
+09:55:47,313 [localhost-startStop-1] INFO  org.activiti.engine.impl.asyncexecutor.DefaultAsyncJobExecutor  - Creating executor service with corePoolSize 2, maxPoolSize 10 and keepAliveTime 5000
+09:55:47,318 [Thread-8] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable  - {} starting to acquire async jobs due
+09:55:47,318 [Thread-9] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable  - {} starting to acquire async jobs due
+09:55:47,319 [Thread-10] INFO  org.activiti.engine.impl.asyncexecutor.ResetExpiredJobsRunnable  - {} starting to reset expired jobs
+09:55:48,916 [localhost-startStop-1] INFO  org.activiti.app.conf.ContentStorageConfiguration  - Using file-system based content storage (data/)
+09:55:48,917 [localhost-startStop-1] INFO  org.activiti.app.conf.ContentStorageConfiguration  - File system root : /Users/sunny/project/Activiti6.0.0-bpmn20-web/data
+09:55:49,464 [localhost-startStop-1] INFO  org.activiti.app.conf.DatabaseConfiguration  - Configuring Liquibase
+INFO 18-12-24 下午9:55:liquibase: Successfully acquired change log lock
+INFO 18-12-24 下午9:55:liquibase: Creating database history table with name: PUBLIC.ACT_DE_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Reading from PUBLIC.ACT_DE_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Reading from PUBLIC.ACT_DE_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Reading from PUBLIC.ACT_DE_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Reading from PUBLIC.ACT_DE_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Table hibernate_sequences created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Table ACT_IDM_PERSISTENT_TOKEN created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Table ACT_DE_MODEL created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Index idx_proc_mod_created created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Table ACT_DE_MODEL_HISTORY created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Index idx_proc_mod_history_proc created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Table ACT_WO_COMMENTS created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Index comment_task_created created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Index comment_proc_created created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Table ACT_WO_RELATED_CONTENT created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Index idx_relcont_createdby created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Index idx_relcont_taskid created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Index idx_relcont_procid created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Table ACT_DE_MODEL_RELATION created
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Foreign key contraint added to ACT_DE_MODEL_RELATION (parent_model_id)
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Foreign key contraint added to ACT_DE_MODEL_RELATION (model_id)
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: ChangeSet META-INF/liquibase/activiti-app-db-changelog.xml::1::activiti ran successfully in 11ms
+INFO 18-12-24 下午9:55:liquibase: META-INF/liquibase/activiti-app-db-changelog.xml: 1::activiti: Reading from PUBLIC.ACT_DE_DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Successfully released change log lock
+09:55:49,756 [localhost-startStop-1] INFO  org.activiti.app.conf.Bootstrapper  - No users found, initializing default entities
+24-Dec-2018 21:55:51.879 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/activiti-app.war has finished in 16,939 ms
+24-Dec-2018 21:55:51.882 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/activiti-admin.war
+24-Dec-2018 21:55:52.315 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:55:53,990 [localhost-startStop-1] INFO  com.activiti.conf.DatabaseConfiguration  - Configuring Datasource
+09:55:54,005 [localhost-startStop-1] INFO  com.activiti.conf.DatabaseConfiguration  - Configuring Datasource with following properties (omitted password for security)
+09:55:54,005 [localhost-startStop-1] INFO  com.activiti.conf.DatabaseConfiguration  - datasource driver: org.h2.Driver
+09:55:54,005 [localhost-startStop-1] INFO  com.activiti.conf.DatabaseConfiguration  - datasource url : jdbc:h2:mem:activitiadmin;DB_CLOSE_DELAY=-1
+09:55:54,005 [localhost-startStop-1] INFO  com.activiti.conf.DatabaseConfiguration  - datasource user name : sa
+09:55:54,005 [localhost-startStop-1] INFO  com.activiti.conf.DatabaseConfiguration  - Min pool size | Max pool size | acquire increment : 5 | 20 | 1
+09:55:54,070 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog  - MLog clients using slf4j logging.
+09:55:54,209 [localhost-startStop-1] INFO  com.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+09:55:54,210 [localhost-startStop-1] WARN  com.mchange.v2.c3p0.management.ActiveManagementCoordinator  - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+09:55:55,054 [localhost-startStop-1] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1x88cog9z1qah22x5kgpqz|4a80577f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.h2.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1x88cog9z1qah22x5kgpqz|4a80577f, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:h2:mem:activitiadmin;DB_CLOSE_DELAY=-1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 1800, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+09:55:55,076 [localhost-startStop-1] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - Bad pool size config, start 3 < min 5. Using 5 as start.
+INFO 18-12-24 下午9:55:liquibase: Successfully acquired change log lock
+INFO 18-12-24 下午9:55:liquibase: Creating database history table with name: PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Table USER_INFO created
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Table AUTHORITY created
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Table USER_AUTHORITY created
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Table HIBERNATE_SEQUENCES created
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Index idx_user_authority created
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Foreign key contraint added to USER_AUTHORITY (name)
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Foreign key contraint added to USER_AUTHORITY (login)
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Data loaded from META-INF/liquibase/users.csv into USER_INFO
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Data loaded from META-INF/liquibase/authorities.csv into AUTHORITY
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Data loaded from META-INF/liquibase/users_authorities.csv into USER_AUTHORITY
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Table CLUSTER_CONFIG created
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Table SERVER_CONFIG created
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Foreign key contraint added to SERVER_CONFIG (cluster_config_id)
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Table ENGINE_CONFIG created
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Foreign key contraint added to ENGINE_CONFIG (cluster_config_id)
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: ChangeSet classpath:META-INF/liquibase/db-changelog.xml::1::activiti ran successfully in 24ms
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 1::activiti: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 2::jbarrez: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 2::jbarrez: Columns tcpip_admin_ip(varchar(255)),tcpip_admin_port(integer) added to CLUSTER_CONFIG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 2::jbarrez: ChangeSet classpath:META-INF/liquibase/db-changelog.xml::2::jbarrez ran successfully in 18ms
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 2::jbarrez: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 3::tijsrademakers: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 3::tijsrademakers: Columns cookie(longtext) added to SERVER_CONFIG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 3::tijsrademakers: ChangeSet classpath:META-INF/liquibase/db-changelog.xml::3::tijsrademakers ran successfully in 30ms
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 3::tijsrademakers: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Column CLUSTER_CONFIG.starting_port dropped
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Column CLUSTER_CONFIG.multicast_enabled dropped
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Column CLUSTER_CONFIG.multicast_group dropped
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Column CLUSTER_CONFIG.multicast_port dropped
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Column CLUSTER_CONFIG.tcpip_enabled dropped
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Column CLUSTER_CONFIG.tcp_interfaces dropped
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Column CLUSTER_CONFIG.security_enabled dropped
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Column CLUSTER_CONFIG.security_password dropped
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Column CLUSTER_CONFIG.security_salt dropped
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Column CLUSTER_CONFIG.security_iteration_count dropped
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Column SERVER_CONFIG.cookie dropped
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Data loaded from META-INF/liquibase/authorities_1.1.csv into AUTHORITY
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Columns user_id(varchar(50)) added to CLUSTER_CONFIG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Foreign key contraint added to CLUSTER_CONFIG (user_id)
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: ChangeSet classpath:META-INF/liquibase/db-changelog.xml::4::activiti ran successfully in 33ms
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 4::activiti: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 5::activiti: Reading from PUBLIC.DATABASECHANGELOG
+WARNING 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 5::activiti: Database does not support drop with cascade
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 5::activiti: Table ENGINE_CONFIG dropped
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 5::activiti: Table MASTER_CONFIG created
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 5::activiti: Foreign key contraint added to MASTER_CONFIG (cluster_config_id)
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 5::activiti: ChangeSet classpath:META-INF/liquibase/db-changelog.xml::5::activiti ran successfully in 2ms
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 5::activiti: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 6::activiti: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 6::activiti: Columns tenant_id(varchar(50)) added to SERVER_CONFIG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 6::activiti: ChangeSet classpath:META-INF/liquibase/db-changelog.xml::6::activiti ran successfully in 2ms
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 6::activiti: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 7::activiti: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 7::activiti: Columns created_by(varchar(50)) added to CLUSTER_CONFIG
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 7::activiti: ChangeSet classpath:META-INF/liquibase/db-changelog.xml::7::activiti ran successfully in 3ms
+INFO 18-12-24 下午9:55:liquibase: classpath:META-INF/liquibase/db-changelog.xml: 7::activiti: Reading from PUBLIC.DATABASECHANGELOG
+INFO 18-12-24 下午9:55:liquibase: Successfully released change log lock
+09:55:59,006 [localhost-startStop-1] INFO  com.activiti.domain.generator.MinimalDataGenerator  - Verifying if minimal data is present
+09:55:59,585 [localhost-startStop-1] INFO  com.activiti.domain.generator.MinimalDataGenerator  - No server configuration found, creating default server configuration
+24-Dec-2018 21:56:00.760 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/activiti-admin.war has finished in 8,878 ms
+24-Dec-2018 21:56:00.761 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/docs
+24-Dec-2018 21:56:00.776 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/docs has finished in 15 ms
+24-Dec-2018 21:56:00.777 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/manager
+24-Dec-2018 21:56:00.807 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/manager has finished in 30 ms
+24-Dec-2018 21:56:00.807 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/examples
+24-Dec-2018 21:56:01.095 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/examples has finished in 288 ms
+24-Dec-2018 21:56:01.095 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/ROOT
+24-Dec-2018 21:56:01.109 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/ROOT has finished in 14 ms
+24-Dec-2018 21:56:01.109 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/host-manager
+24-Dec-2018 21:56:01.126 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/sunny/project/Activiti6.0.0-bpmn20-web/apache-tomcat-8.0.53/webapps/host-manager has finished in 17 ms
+24-Dec-2018 21:56:01.131 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 26243 ms
+24-Dec-2018 21:56:01.135 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:438)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:729)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:675)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:349)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:483)
+
+24-Dec-2018 21:56:01.135 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Dec-2018 21:56:01.135 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 21:56:01.135 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+09:56:01,175 [localhost-startStop-1] INFO  org.activiti.app.servlet.WebConfigurer  - Destroying Web application
+09:56:01,191 [localhost-startStop-1] INFO  org.activiti.engine.impl.asyncexecutor.DefaultAsyncJobExecutor  - Shutting down the default async job executor [org.activiti.engine.impl.asyncexecutor.DefaultAsyncJobExecutor].
+09:56:01,191 [activiti-acquire-timer-jobs] INFO  org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable  - {} stopped async job due acquisition
+09:56:01,191 [activiti-acquire-async-jobs] INFO  org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable  - {} stopped async job due acquisition
+09:56:01,191 [activiti-reset-expired-jobs] INFO  org.activiti.engine.impl.asyncexecutor.ResetExpiredJobsRunnable  - {} stopped resetting expired jobs
+24-Dec-2018 21:56:01.212 警告 [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [activiti-app] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09:56:01,237 [localhost-startStop-1] INFO  com.activiti.conf.WebConfigurer  - Destroying Web application
+24-Dec-2018 21:56:01.251 警告 [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [activiti-admin] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+24-Dec-2018 21:56:01.263 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Dec-2018 21:56:01.264 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Dec-2018 21:56:01.264 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Dec-2018 21:56:01.264 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
