@@ -16,15 +16,12 @@ git clone clone https://github.com/gaoshengnan/Activiti6.0.0-bpmn20-web.git
 用户名和密码如下：
 > Username：admin   
   Password：admin
-
 ![terminal](picture/startTomcat.jpg)
 ![terminal](picture/loginAdmin.jpg)
 
 > 这里默认的Server port是9999，修改端口号为8080，并设置app的密码为test，然后
 > 点击【Check Activiti Rest endpoint】测试一下
-
 ![terminal](picture/updatePortPass.jpg)
-
 ![terminal](picture/check.jpg)
 
 > 然后访问[http://localhost:8080/activiti-app](http://localhost:8080/activiti-app)
@@ -32,13 +29,10 @@ git clone clone https://github.com/gaoshengnan/Activiti6.0.0-bpmn20-web.git
 > 用户名和密码如下：
 > Username：admin   
   Password：test
-
 ![terminal](picture/loginApp.jpg)
-
 ![terminal](picture/appMain.jpg)
   
 > 然后就可以开始设计流程图了～～～
-
 ![terminal](picture/bpmn.jpg)
 
 
