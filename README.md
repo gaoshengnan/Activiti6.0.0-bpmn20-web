@@ -12,28 +12,28 @@ Activiti6.0.0-bpmn20-web是我搭建好的Web流程设计器环境，可以直�
 ```
 git clone clone https://github.com/gaoshengnan/Activiti6.0.0-bpmn20-web.git
 ```
-之后打开Terminal，启动Tomcat之后访问[http://localhost:8080/activiti-admin](http://localhost:8080/activiti-admin)
+之后打开Terminal，启动Tomcat之后访问[http://localhost:8080/activiti-admin](http://localhost:8080/activiti-admin)，
+用户名和密码如下：
+> Username：admin   
+  Password：admin
 
 ![terminal](picture/startTomcat.jpg)
 
-> Username：admin   
-  Password：admin
-  
-> 这里默认的Server port是9999，修改端口号为8080，并设置app的密码为test
+> 这里默认的Server port是9999，修改端口号为8080，并设置app的密码为test，然后
+> 点击【Check Activiti Rest endpoint】测试一下
 
 ![terminal](picture/updatePortPass.jpg)
-
-> 点击【Check Activiti Rest endpoint】测试一下
 
 ![terminal](picture/check.jpg)
 
 > 然后访问[http://localhost:8080/activiti-app](http://localhost:8080/activiti-app)
 
-![terminal](picture/loginApp.jpg)
-
+> 用户名和密码如下：
 > Username：admin   
   Password：test
-  
+
+![terminal](picture/loginApp.jpg)
+
 ![terminal](picture/appMain.jpg)
   
 > 然后就可以开始设计流程图了～～～
