@@ -35,6 +35,8 @@ git clone clone https://github.com/gaoshengnan/Activiti6.0.0-bpmn20-web.git
 ![terminal](picture/appMain.jpg)
   
 然后就可以开始设计流程图了～～～
+![terminal](picture/bpmn.jpg)
+
 
 ### 注意
 activiti默认配置h2的数据库，如果重新启动Tomcat，设计好的流程图就被清空了，我们可以配置成自己的mysql数据库
