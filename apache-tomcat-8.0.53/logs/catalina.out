@@ -5455,3 +5455,5 @@ INFO 18-12-24 下午9:55:liquibase: Successfully released change log lock
 24-Dec-2018 21:56:01.264 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 24-Dec-2018 21:56:01.264 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 24-Dec-2018 21:56:01.264 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+08:22:24,850 [pool-2-thread-1] INFO  org.activiti.app.service.runtime.PersistentTokenCleanupService  - Removed 0 obsolete persisted tokens
+01:45:05,291 [pool-2-thread-2] INFO  org.activiti.app.service.runtime.PersistentTokenCleanupService  - Removed 0 obsolete persisted tokens
