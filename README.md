@@ -19,6 +19,7 @@ Activiti6.0.0-bpmn20-web是我搭建好的Web流程设计器环境，可以直�
 
 > 这里默认的Server port是9999，修改端口号为8080，设置app的密码为test
 <div align="left"><img src="/picture/updatePortPass.png" height="350" width="530" >
+
 > 并点击【Check Activiti Rest endpoint】测试一下
 <div align="left"><img src="/picture/check.png" height="240" width="600" >
 
