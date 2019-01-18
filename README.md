@@ -7,7 +7,7 @@
 3. 最后把activiti-6.0.0/wars/activiti-admin.war 和 activiti-6.0.0/wars/activiti-app.war放到tomcat的webapp目录下
 
 ### 二、Activiti6.0.0-bpmn20-web
-Activiti6.0.0-bpmn20-web是我搭建好的Web流程设计器环境，可以直接clone项目到本地启动，就可以在线设计工作流引擎流程图
+Activiti6.0.0-bpmn20-web是我搭建好的Web流程设计器环境，可以直接clone项目到本地启动，就可以在线设计工作流引擎流程图，命令如下：
 
 > git clone https://github.com/gaoshengnan/Activiti6.0.0-bpmn20-web.git
 
